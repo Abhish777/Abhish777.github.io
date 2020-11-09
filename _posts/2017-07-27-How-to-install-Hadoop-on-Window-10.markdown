@@ -21,17 +21,16 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 1. Go to cmd and check if Java is alreaddy installed on your system, use **"java -version"**
 ![java version]({{site.baseurl}}/assets/img/posts/hadoop/How%20to%20check%20java%20version.png)
 
-1. If Java is not installed on your system then first install java by selecting the location as **"C:\JAVA"** . If while installation it pops another the destination folder keep it default and run
-
+1. If Java is not installed on your system then first install java by selecting the location as **"C:\JAVA"** . If while installation it pops another the destination folder keep it default and run.
 ![Java setup]({{site.baseurl}}/assets/img/posts/hadoop/Java.png)
 
 1. Once Hadoop is installed check if it installed correctly, **"hadoop version"**. Next, Extract file Hadoop 3.1.4.tar.gz or Hadoop-3.1.4.zip and place under **“C:\Hadoop-3.1.4”** else rename it to **“C:\Hadoop”**
 ![hadoop]({{site.baseurl}}/assets/img/posts/hadoop/Hadoop-2.8.0.png)
 
-1. Set the path HADOOP_HOME Environment variable on windows 10(see Step 1,2,3 and 4 below).
+1. Set the path HADOOP_HOME Environment variable on windows 10. **Right click MyPc -> Go to Properties -> Choose Advanced system settings -> Click on Environment Variable**. Next click on New on user variable and name it to **HADOOP_HOME** and set location to **C:\Hadoop\bin**
 ![hadoop]({{site.baseurl}}/assets/img/posts/hadoop/Hadoop%20Path.png)
 
-1. Set the path JAVA_HOME Environment variable on windows 10(see Step 1,2,3 and 4 below).
+1. Similarly, set the path JAVA_HOME Environment variable on windows 10 and choose the location to **C:\Java\jdk1.8.0_271\bin**
 ![java]({{site.baseurl}}/assets/img/posts/hadoop/Java%20Path.png)
 
 1. Next we set the Hadoop bin directory path and JAVA bin directory path.
