@@ -38,7 +38,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 ![bin]({{site.baseurl}}/assets/img/posts/hadoop/bin%20directory%20path.png)
 
 ## Configuration
-1. Edit file **C:/Hadoop/etc/hadoop/core-site.xml**, paste below xml paragraph and save this file.
+1.Edit file **C:/Hadoop/etc/hadoop/core-site.xml**, paste below xml paragraph and save this file.
 
 ```xml
 <configuration>
@@ -49,7 +49,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 </configuration>
 ```
 
-2. Similarly edit file **C:/Hadoop/etc/hadoop/mapred-site.xml**, paste below xml paragraph and save this file.
+2.Similarly edit file **C:/Hadoop/etc/hadoop/mapred-site.xml**, paste below xml paragraph and save this file.
 
 ```xml
 <configuration>
@@ -60,11 +60,12 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 </configuration>
 ```
 
-3. Create folder **"data"** under **"C:\Hadoop"**
+3.Create folder **"data"** under **"C:\Hadoop"**
 * Create folder  **"datanode"** under **"C:\Hadoop\data"**
 * Create folder  **"namenode"** under **"C:\Hadoop\data"**
 ![data]({{site.baseurl}}/assets/img/posts/hadoop/data.PNG)
-4. Edit file  **C:\Hadoop/etc/hadoop/hdfs-site.xml**, paste below xml paragraph and save this file.
+
+4.Edit file  **C:\Hadoop/etc/hadoop/hdfs-site.xml**, paste below xml paragraph and save this file.
 
 ```xml
 <configuration>
@@ -83,7 +84,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 </configuration>
 ```
 
-5. Edit file **C:/Hadoop/etc/hadoop/yarn-site.xml**, paste below xml paragraph and save this file.
+5.Edit file **C:/Hadoop/etc/hadoop/yarn-site.xml**, paste below xml paragraph and save this file.
 
 ```xml
 <configuration>
@@ -111,7 +112,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 ## Testing
 1. Open cmd and change directory to "C:\Hadoop-2.8.0\sbin" and type **"start-all.cmd"** to start apache.
 ![start all]({{site.baseurl}}/assets/img/posts/hadoop/start-all.PNG)
-1. Make sure these apps are running 
+2. Make sure these apps are running 
 * Hadoop Namenode
 * Hadoop datanode
 * YARN Resourc Manager
