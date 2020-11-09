@@ -37,7 +37,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 ![bin]({{site.baseurl}}/assets/img/posts/hadoop/bin%20directory%20path.png)
 
 ## Configuration
-1. Edit file **C:/Hadoop-2.8.0/etc/hadoop/core-site.xml**, paste below xml paragraph and save this file.
+1. Edit file **C:/Hadoop/etc/hadoop/core-site.xml**, paste below xml paragraph and save this file.
 
 ```xml
 <configuration>
@@ -48,7 +48,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 </configuration>
 ```
 
-2. Rename "mapred-site.xml.template" to "mapred-site.xml" and edit this file **C:/Hadoop-2.8.0/etc/hadoop/mapred-site.xml**, paste below xml paragraph and save this file.
+2. Similarly edit file **C:/Hadoop/etc/hadoop/mapred-site.xml**, paste below xml paragraph and save this file.
 
 ```xml
 <configuration>
@@ -59,11 +59,11 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 </configuration>
 ```
 
-3. Create folder **"data"** under **"C:\Hadoop-2.8.0"**
-* Create folder  **"datanode"** under **"C:\Hadoop-2.8.0\data"**
-* Create folder  **"namenode"** under **"C:\Hadoop-2.8.0\data"**
+3. Create folder **"data"** under **"C:\Hadoop"**
+* Create folder  **"datanode"** under **"C:\Hadoop\data"**
+* Create folder  **"namenode"** under **"C:\Hadoop\data"**
 ![data]({{site.baseurl}}/assets/img/posts/hadoop/data.PNG)
-4. Edit file  **C:\Hadoop-2.8.0/etc/hadoop/hdfs-site.xml**, paste below xml paragraph and save this file.
+4. Edit file  **C:\Hadoop/etc/hadoop/hdfs-site.xml**, paste below xml paragraph and save this file.
 
 ```xml
 <configuration>
@@ -73,16 +73,16 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
    </property>
    <property>
        <name>dfs.namenode.name.dir</name>
-       <value>/hadoop-2.8.0/data/namenode</value>
+       <value>C://hadoop/data/namenode</value>
    </property>
    <property>
        <name>dfs.datanode.data.dir</name>
-       <value>/hadoop-2.8.0/data/datanode</value>
+       <value>C://hadoop/data/datanode</value>
    </property>
 </configuration>
 ```
 
-5. Edit file **C:/Hadoop-2.8.0/etc/hadoop/yarn-site.xml**, paste below xml paragraph and save this file.
+5. Edit file **C:/Hadoop/etc/hadoop/yarn-site.xml**, paste below xml paragraph and save this file.
 
 ```xml
 <configuration>
@@ -97,13 +97,13 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 </configuration>
 ```
 
-6. Edit file **C:/Hadoop-2.8.0/etc/hadoop/hadoop-env.cmd** by closing the command line  **"JAVA_HOME=%JAVA_HOME%"** instead of set  **"JAVA_HOME=C:\Java"** (On C:\java this is path to file jdk.18.0)
+6. Edit file **C:/Hadoop/etc/hadoop/hadoop-env.cmd** by closing the command line  **"JAVA_HOME=%JAVA_HOME%"** instead of set  **"JAVA_HOME=C:\Java"** (On C:\java this is path to file jdk.18.0)
 
 ![java path]({{site.baseurl}}/assets/img/posts/hadoop/java%20path%20setup.png)
 
 ## Hadoop Configuration
 1. Dowload file [Hadoop Configuration.zip](https://github.com/MuhammadBilalYar/HADOOP-INSTALLATION-ON-WINDOW-10/blob/master/Hadoop%20Configuration.zip) 
-1. Delete file bin on C:\Hadoop-2.8.0\bin, replaced by file bin on file just download (from Hadoop Configuration.zip).
+1. Delete file bin on C:\Hadoop\bin, replaced by file bin on file just download (from Hadoop Configuration.zip).
 1. Open cmd and typing command **"hdfs namenode –format"** . You will see 
 ![hdfs namenode –format]({{site.baseurl}}/assets/img/posts/hadoop/hdfs%20namenode%20%E2%80%93format.PNG)
 
