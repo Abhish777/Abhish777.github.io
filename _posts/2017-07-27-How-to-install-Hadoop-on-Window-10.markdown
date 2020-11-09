@@ -2,18 +2,20 @@
 layout: post
 title: Hadoop 3.1.4 Installation on Window 10
 date: 2020-11-09 11:21:00
-description: Follow the page on how to install Hadoop on Windows # Add post description (optional)
+description: Below is the procedure in Installing Hadoop # Add post description (optional)
 img: hadoop/Hadoop-On-Window.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [hadoop, Data Science, Data Analyis]
+tags: [hadoop, Data Science, Data Analyis, java]
 ---
 Follow the page on how to Install Hadoop on Windows
 
 ## Prepare:
 Then you can use actively Hadoop on your system
 
-1. Download Hadoop 2.8.0 ([Link 1](http://www-eu.apache.org/dist/hadoop/common/hadoop-2.8.0/hadoop-2.8.0.tar.gz) OR [Link 2](http://archive.apache.org/dist/hadoop/core//hadoop-2.8.0/hadoop-2.8.0.tar.gz))
-1. Java JDK 1.8.0.zip [Link to download](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+1. Download Hadoop 2.8.0 ([Link ](https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.1.4/hadoop-3.1.4.tar.gz))
+1. Java JDK 1.8.0 [Link to download](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 
 ## Set up
 1. Check either Java 1.8.0 is already installed on your system or not, use **"Javac -version"** to check. 
