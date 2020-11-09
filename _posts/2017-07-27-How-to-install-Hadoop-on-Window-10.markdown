@@ -19,7 +19,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 
 ## Set up
 1. Go to cmd and check if Java is alreaddy installed on your system, use **"java -version"**
-![java version]({{site.baseurl}}/assets/img/posts/hadoop/How%20to%20check%20java%20version.png)
+![java version]({{site.baseurl}}/assets/img/posts/hadoop/How%20to%20check%20java%20version.PNG)
 
 1. If Java is not installed on your system then first install java by selecting the location as **"C:\JAVA"** . If while installation it pops another the destination folder keep it default and run
  ![Java setup]({{site.baseurl}}/assets/img/posts/hadoop/Java.png)
