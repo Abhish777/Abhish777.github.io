@@ -107,7 +107,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 1. Dowload file [Hadoop Configuration.zip](https://github.com/MuhammadBilalYar/HADOOP-INSTALLATION-ON-WINDOW-10/blob/master/Hadoop%20Configuration.zip) 
 1. Delete file bin on C:\Hadoop\bin, replaced by file bin on file just download (from Hadoop Configuration.zip).
 1. Open cmd and typing command **"hdfs namenode –format"** . You will see 
-![hdfs namenode –format]({{site.baseurl}}/assets/img/posts/hadoop/hdfs%20namenode%20%E2%80%93format.PNG)
+![hdfs namenode –format]({{site.baseurl}}/assets/img/posts/hadoop/hdfs%20namenode%20%E2%80%93format.png)
 
 ## Testing
 1. Open cmd and change directory to "C:\Hadoop-2.8.0\sbin" and type **"start-all.cmd"** to start apache.
