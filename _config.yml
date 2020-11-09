@@ -1,6 +1,6 @@
 title: Abhish Ijari - Tech Blog
 description: > # this means to ignore newlines until "baseurl:"
-Software Engineer with exprience of 2 years into Industry in Full Stack Development and Storage Domain <br/>
+   Software Engineer with exprience of 2 years into Industry in Full Stack Development and Storage Domain.
 permalink: ':title/'
 baseurl: "/techbunch" # the subpath of your site, e.g. /blog
 url: "https://abhish777.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
