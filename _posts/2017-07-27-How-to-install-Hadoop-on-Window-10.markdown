@@ -7,24 +7,24 @@ img: hadoop/Hadoop-On-Window.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [hadoop, Data Science, Data Analyis, java]
 ---
-Follow the page on how to Install Hadoop on Windows
+Below is the procedure in Installing Hadoop
 
 ## Prepare:
 Then you can use actively Hadoop on your system
 
-1. Download Hadoop 2.8.0 ([Link ](https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.1.4/hadoop-3.1.4.tar.gz))
+1. Download Hadoop 3.1.4 mirror file [Link ](https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.1.4/hadoop-3.1.4.tar.gz)
 1. Java JDK 1.8.0 [Link to download](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 
 ## Set up
-1. Check either Java 1.8.0 is already installed on your system or not, use **"Javac -version"** to check. 
+1. Go to cmd and check if Java is alreaddy installed on your system, use **"java -version"**
 ![java version]({{site.baseurl}}/assets/img/posts/hadoop/How%20to%20check%20java%20version.png)
 
-1. If Java is not installed on your system then first install java under **"C:\JAVA"**
+1. If Java is not installed on your system then first install java by selecting the location as **"C:\JAVA"** . If while installation it pops another the destination folder keep it default and run.
 ![Java setup]({{site.baseurl}}/assets/img/posts/hadoop/Java.png)
 
-1. Extract file Hadoop 2.8.0.tar.gz or Hadoop-2.8.0.zip and place under **"C:\Hadoop-2.8.0"**.
+1. Once Hadoop is installed check if it installed correctly, **"hadoop version"**. Next, Extract file Hadoop 3.1.4.tar.gz or Hadoop-3.1.4.zip and place under **“C:\Hadoop-3.1.4”** else you rename it to **“C:\Hadoop”**
 ![hadoop]({{site.baseurl}}/assets/img/posts/hadoop/Hadoop-2.8.0.png)
 
 1. Set the path HADOOP_HOME Environment variable on windows 10(see Step 1,2,3 and 4 below).
