@@ -25,16 +25,16 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
  ![Java setup]({{site.baseurl}}/assets/img/posts/hadoop/Java.png)
 
 1. Once Hadoop is installed check if it installed correctly, **"hadoop version"**. Next, Extract file Hadoop 3.1.4.tar.gz or Hadoop-3.1.4.zip and place under **“C:\Hadoop-3.1.4”** else rename it to **“C:\Hadoop”**
-![hadoop]({{site.baseurl}}/assets/img/posts/hadoop/Hadoop-2.8.0.png)
+![hadoop]({{site.baseurl}}/assets/img/posts/hadoop/Hadoop.png)
 
 1. Set the path HADOOP_HOME Environment variable on windows 10. **Right click MyPc -> Go to Properties -> Choose Advanced system settings -> Click on Environment Variable**. Next click on New on user variable and name it to **HADOOP_HOME** and set location to **C:\Hadoop\bin**
-![hadoop]({{site.baseurl}}/assets/img/posts/hadoop/Hadoop%20Path.png)
+![hadoop]({{site.baseurl}}/assets/img/posts/hadoop/Hadoop%20Path.PNG)
 
 1. Similarly, set the path JAVA_HOME Environment variable on windows 10 and choose the location to **C:\Java\jdk1.8.0_271\bin**
-![java]({{site.baseurl}}/assets/img/posts/hadoop/Java%20Path.png)
+![java]({{site.baseurl}}/assets/img/posts/hadoop/Java%20Path.PNG)
 
 1. Next we set the Hadoop bin directory path and JAVA bin directory path.
-![bin]({{site.baseurl}}/assets/img/posts/hadoop/bin%20directory%20path.png)
+![bin]({{site.baseurl}}/assets/img/posts/hadoop/bin%20directory%20path.PNG)
 
 ## Configuration
 1. Edit file **C:/Hadoop/etc/hadoop/core-site.xml**, paste below xml paragraph and save this file.
