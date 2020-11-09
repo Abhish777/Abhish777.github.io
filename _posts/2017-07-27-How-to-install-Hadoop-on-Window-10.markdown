@@ -99,7 +99,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 </configuration>
 ```
 
-6. Edit file **C:/Hadoop/etc/hadoop/hadoop-env.cmd** by closing the command line  **"JAVA_HOME=%JAVA_HOME%"** instead of set  **"JAVA_HOME=C:\Java\jdk1.8.0_271"**
+6.Edit file **C:/Hadoop/etc/hadoop/hadoop-env.cmd** by closing the command line  **"JAVA_HOME=%JAVA_HOME%"** instead of set  **"JAVA_HOME=C:\Java\jdk1.8.0_271"**
 
 ![java path]({{site.baseurl}}/assets/img/posts/hadoop/java%20path%20setup.PNG)
 
