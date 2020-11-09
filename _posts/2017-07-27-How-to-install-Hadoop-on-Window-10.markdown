@@ -35,7 +35,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 ![java]({{site.baseurl}}/assets/img/posts/hadoop/Java%20Path.PNG)
 
 1. Next we set the Hadoop bin directory path and JAVA bin directory path.
-![bin]({{site.baseurl}}/assets/img/posts/hadoop/bin%20directory%20path.PNG)
+![bin]({{site.baseurl}}/assets/img/posts/hadoop/bin%20directory%20path.png)
 
 ## Configuration
 1. Edit file **C:/Hadoop/etc/hadoop/core-site.xml**, paste below xml paragraph and save this file.
