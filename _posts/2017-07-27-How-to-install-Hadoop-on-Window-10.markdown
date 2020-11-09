@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Step by step Hadoop 2.8.0 installation on Window 10
-date: 2017-07-27 9:32:20 +0300
-description: Step by step Hadoop 2.8.0 installation on Window 10 # Add post description (optional)
+title: Hadoop 3.1.4 installation on Window 10
+date: 2020-11-09 11:21:00
+description: Follow the page on how to install Hadoop on Windows # Add post description (optional)
 img: hadoop/Hadoop-On-Window.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [hadoop, Data Science, Data Analyis]
