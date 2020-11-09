@@ -98,9 +98,9 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 </configuration>
 ```
 
-6. Edit file **C:/Hadoop/etc/hadoop/hadoop-env.cmd** by closing the command line  **"JAVA_HOME=%JAVA_HOME%"** instead of set  **"JAVA_HOME=C:\Java"** (On C:\java this is path to file jdk.18.0)
+6. Edit file **C:/Hadoop/etc/hadoop/hadoop-env.cmd** by closing the command line  **"JAVA_HOME=%JAVA_HOME%"** instead of set  **"JAVA_HOME=C:\Java\jdk1.8.0_271"**
 
-![java path]({{site.baseurl}}/assets/img/posts/hadoop/java%20path%20setup.png)
+![java path]({{site.baseurl}}/assets/img/posts/hadoop/java%20path%20setup.PNG)
 
 ## Hadoop Configuration
 1. Dowload file [Hadoop Configuration.zip](https://github.com/MuhammadBilalYar/HADOOP-INSTALLATION-ON-WINDOW-10/blob/master/Hadoop%20Configuration.zip) 
