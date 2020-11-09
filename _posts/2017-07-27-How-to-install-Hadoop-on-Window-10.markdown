@@ -28,7 +28,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
  ![hadoop]({{site.baseurl}}/assets/img/posts/hadoop/Hadoop.png)
 
 1. Set the path HADOOP_HOME Environment variable on windows 10. **Right click MyPc -> Go to Properties -> Choose Advanced system settings -> Click on Environment Variable**. Next click on New on user variable and name it to **HADOOP_HOME** and set location to **C:\Hadoop\bin**
- ![hadoop]({{site.baseurl}}/assets/img/posts/hadoop/Hadoop%20Path.PNG)
+   ![hadoop]({{site.baseurl}}/assets/img/posts/hadoop/Hadoop%20Path.PNG)
 
 1. Similarly, set the path JAVA_HOME Environment variable on windows 10 and choose the location to **C:\Java\jdk1.8.0_271\bin**
 ![java]({{site.baseurl}}/assets/img/posts/hadoop/Java%20Path.PNG)
