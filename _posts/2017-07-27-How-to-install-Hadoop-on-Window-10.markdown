@@ -112,7 +112,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 ## Testing
 1. Open cmd and change directory to "C:\Hadoop-2.8.0\sbin" and type **"start-all.cmd"** to start apache.
 ![start all]({{site.baseurl}}/assets/img/posts/hadoop/start-all.PNG)
-2. Make sure these apps are running 
+2. Make sure these apps are running- Use Jps to see the resources running
 * Hadoop Namenode
 * Hadoop datanode
 * YARN Resourc Manager
