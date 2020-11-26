@@ -104,7 +104,7 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 ![java path]({{site.baseurl}}/assets/img/posts/hadoop/java%20path%20setup.PNG)
 
 ## Hadoop Configuration
-1. Dowload file [Hadoop Configuration.zip](https://github.com/MuhammadBilalYar/HADOOP-INSTALLATION-ON-WINDOW-10/blob/master/Hadoop%20Configuration.zip) 
+1. Dowload file [Hadoop Configuration.zip](https://github.com/Abhish777/HADOOP-INSTALLATION-ON-WINDOW-10/Hadoop-On-Window-master/blob/master/Hadoop%20Configuration.zip) 
 1. Delete file bin on C:\Hadoop\bin, replaced by file bin on file just download (from Hadoop Configuration.zip).
 1. Open cmd and typing command **"hdfs namenode –format"** . You will see 
 ![hdfs namenode –format]({{site.baseurl}}/assets/img/posts/hadoop/hdfs%20namenode%20%E2%80%93format.png)
@@ -120,6 +120,6 @@ NOTE: Hadoop 3.2.1 have some bugs so the NameNode and DataNode shuts-down.
 ![hadoop nodes]({{site.baseurl}}/assets/img/posts/hadoop/nodes.PNG)
 3. Open:  http://localhost:8088
 ![cluster]({{site.baseurl}}/assets/img/posts/hadoop/hadoop%20cluster.PNG)
-4. Open:  http://localhost:50070
+4. Open:  http://localhost:9870
 ![hdfs]({{site.baseurl}}/assets/img/posts/hadoop/hdfs.PNG)
 # Congratulations, Hadoop installed.
